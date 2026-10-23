@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вход в систему</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
-<body style="display:flex; align-items:center; justify-content:center; min-height: 100vh;">
+<body 
+style="display:flex; align-items:center; justify-content:center; min-height: 100vh; background-image: url(pic/d4a8e5c509d95a9349b86d789eced3a6.jpg); background-size: cover;">
     <div class="form-container" style="width:100%; max-width:400px; margin: 20px;">
         <h2 id="form-title">Вход</h2>
         <input type="email" id="email" placeholder="Email" required>
         <input type="password" id="password" placeholder="Пароль" required>
         <button id="submit-btn" class="btn-submit" onclick="handleAuth()">Войти</button>
         <p style="text-align:center; margin-top: 20px; font-size: 0.9rem;">
-            <a href="#" id="toggle-link" style="color:var(--brand-purple); text-decoration:none;" onclick="toggleMode(event)">Нет аккаунта? Зарегистрироваться</a>
+            <a href="#" id="toggle-link" style="color:#5f07a2; text-decoration:none;" onclick="toggleMode(event)">Нет аккаунта? Зарегистрироваться</a>
         </p>
-        <div style="margin-top:20px; font-size:0.8rem; text-align:center; color:var(--text-muted);">
+        <div style="margin-top:30px; font-size:0.8rem; text-align:center; color:var(--text-muted);">
             <p>Тестовый студент: <b>student@test.ru</b> / <b>123</b></p>
             <p>Тестовый админ: <b>admin@test.ru</b> / <b>admin</b></p>
         </div>
